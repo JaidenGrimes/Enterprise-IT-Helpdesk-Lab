@@ -4,6 +4,8 @@ Containerized osTicket ticketing system deployed using Docker and Docker Compose
 
 # osTicket Helpdesk Deployment & Configuration Lab
 
+**Live Interactive Demo:** [Jaiden Grimes’ Enterprise IT Helpdesk Lab](https://bit.ly/jaidens-enterprise-it-helpdesk-lab)  *(Note: The live environment requires the background host VM and Cloudflare Tunnel process to be active.)*
+
 ## Overview
 This repository documents the end-to-end installation, enterprise configuration, and workflow testing of **osTicket** hosted inside a local virtualized Linux environment (`grimeslab.local`). The goal of this lab is to demonstrate practical IT service management (ITSM) practices, custom department routing, SLA policy enforcement, and ticket lifecycle resolution.
 
