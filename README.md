@@ -20,14 +20,14 @@ This repository documents the end-to-end installation, enterprise configuration,
 ### 1. Helpdesk Portal Setup
 Provisioned and stabilized the containerized osTicket web application and database backend, verifying access via the local gateway endpoint.
 
-![osTicket Login / Portal](01-osticket-login.png) <img width="1919" height="978" alt="01-osticket-login" src="https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57" />
+![osTicket Login / Portal]([01-osticket-login.png](https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57)) <img width="1919" height="978" alt="01-osticket-login" src="https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57" />
 
 ### 2. Enterprise Routing & SLA Configuration
 Streamlined system administration by stripping default template data and configuring production-aligned departments and routing rules:
 * **Tier 1 Helpdesk:** Assigned high-volume identity and access issues (e.g., *Password Reset / Account Lockout* - High Priority).
 * **System Administration:** Dedicated escalation path for critical infrastructure outages (e.g., *Network Connectivity Issue* - Emergency Priority).
 
-![osTicket Admin Configuration](02-osticket-admin.png) <img width="1919" height="978" alt="02-osticket-admin" src="https://github.com/user-attachments/assets/b5a0f76e-ebe5-4d7e-a8d3-a5f7d2955f6f" />
+![osTicket Admin Configuration]([02-osticket-admin.png](https://github.com/user-attachments/assets/b5a0f76e-ebe5-4d7e-a8d3-a5f7d2955f6f)) <img width="1919" height="978" alt="02-osticket-admin" src="https://github.com/user-attachments/assets/b5a0f76e-ebe5-4d7e-a8d3-a5f7d2955f6f" />
 
 ### 3. Ticket Lifecycle & Resolution Testing
 Executed end-to-end ticket testing simulating real-world client requests:
@@ -35,7 +35,7 @@ Executed end-to-end ticket testing simulating real-world client requests:
 2. **Triaging:** Auto-routed to the `Tier 1 Helpdesk` queue and claimed by Administrator (`Jaiden Grimes`).
 3. **Remediation:** Executed Active Directory account unlock and password reset on `DC-01`, verified client workstation authentication, and documented the resolution thread before closing.
 
-![osTicket Ticket Resolution](03-ticket-resolution.png) <img width="1919" height="976" alt="03-ticket-resolution" src="https://github.com/user-attachments/assets/c638e6f1-9e45-4c67-8859-705ca73ecc55" />
+![osTicket Ticket Resolution]([03-ticket-resolution.png](https://github.com/user-attachments/assets/c638e6f1-9e45-4c67-8859-705ca73ecc55)) <img width="1919" height="976" alt="03-ticket-resolution" src="https://github.com/user-attachments/assets/c638e6f1-9e45-4c67-8859-705ca73ecc55" />
 
 ---
 
