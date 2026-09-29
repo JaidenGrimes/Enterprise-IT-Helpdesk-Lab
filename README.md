@@ -20,7 +20,7 @@ This repository documents the end-to-end installation, enterprise configuration,
 ### 1. Helpdesk Portal Setup
 Provisioned and stabilized the containerized osTicket web application and database backend, verifying access via the local gateway endpoint.
 
-![osTicket Login / Portal]([01-osticket-login.png](https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57)) <img width="1919" height="978" alt="01-osticket-login" src="https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57" />
+![osTicket Login / Portal]((https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57)) <img width="1919" height="978" alt="01-osticket-login" src="https://github.com/user-attachments/assets/40fa093e-813b-469f-86a1-727b9c9e9d57" />
 
 ### 2. Enterprise Routing & SLA Configuration
 Streamlined system administration by stripping default template data and configuring production-aligned departments and routing rules:
